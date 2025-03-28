@@ -79,7 +79,9 @@ export default function ResultsChart({ scores }: ResultsChartProps) {
       barContainer.appendChild(labelContainer);
       barContainer.appendChild(progressContainer);
       
-      chartRef.current.appendChild(barContainer);
+      if (chartRef.current) {
+        chartRef.current.appendChild(barContainer);
+      }
       
       // Animate the progress bar after a short delay
       setTimeout(() => {
