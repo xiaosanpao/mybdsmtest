@@ -13,7 +13,6 @@ export const metadata: Metadata = {
   title: 'MyBDSMTest - Discover Your Preferences',
   description: 'Take our comprehensive BDSM test to discover your preferences, roles, and tendencies. For educational purposes only.',
   viewport: 'width=device-width, initial-scale=1',
-  // 移除了导致类型错误的icons配置
 };
 
 export default function RootLayout({
@@ -38,8 +37,8 @@ export default function RootLayout({
           `}
         </Script>
         
-        {/* 用户样式标签 */}
-        <userStyle>Normal</userStyle>
+        {/* userStyle 标签 */}
+        <div dangerouslySetInnerHTML={{ __html: '<userStyle>Normal</userStyle>' }} />
       </head>
       
       <body className={`${inter.className} bg-gray-50 dark:bg-gray-900 min-h-screen flex flex-col`}>
