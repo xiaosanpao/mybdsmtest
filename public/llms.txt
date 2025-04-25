@@ -1,18 +1,18 @@
 # BDSM Test
 
-> BDSM Test是一个在线测试工具，帮助用户探索和了解自己在BDSM领域的偏好、角色和兴趣。该测试提供详细的个人分析结果。
+> BDSM Test is an online testing tool that helps users explore and understand their preferences, roles, and interests in the BDSM domain. The test provides detailed personal analysis results.
 
-我们提供一系列专业设计的问卷和测试，帮助用户了解自己在BDSM各方面的倾向，测试结果保密且仅供个人参考。
+We offer a series of professionally designed questionnaires and tests to help users understand their tendencies in various aspects of BDSM. Test results are confidential and for personal reference only.
 
-## 核心内容
-- [测试](https://mybdsmtest.org/tests)：包括完整测试和简短版本，帮助用户了解BDSM偏好
-- [结果解析](https://mybdsmtest.org/results)：详细解释各种角色和偏好的含义
-- [资源中心](https://mybdsmtest.org/resources)：BDSM相关教育内容和安全实践指南
+## Core Content
+- [Tests](https://mybdsmtest.org/tests): Including full tests and short versions to help users understand BDSM preferences
+- [Results Analysis](https://mybdsmtest.org/results): Detailed explanations of various roles and preferences
+- [Resource Center](https://mybdsmtest.org/resources): BDSM-related educational content and safe practice guidelines
 
-## 常用资源
-- [常见问题](https://mybdsmtest.org/faq)：解答用户关于测试和结果的疑问
-- [联系方式](https://mybdsmtest.org/contact)：反馈和支持渠道
+## Common Resources
+- [FAQ](https://mybdsmtest.org/faq): Answers to user questions about tests and results
+- [Contact Information](https://mybdsmtest.org/contact): Feedback and support channels
 
-## 可选
-- [关于我们](https://mybdsmtest.org/about)：网站理念和团队介绍
-- [使用条款](https://mybdsmtest.org/terms)：网站使用规则和隐私政策
+## Optional
+- [About Us](https://mybdsmtest.org/about): Website philosophy and team introduction
+- [Terms of Use](https://mybdsmtest.org/terms): Website usage rules and privacy policy
