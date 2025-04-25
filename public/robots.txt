@@ -1,15 +1,15 @@
-# robots.txt基础设置
+# robots.txt basic settings
 
-# 常规搜索引擎规则
+# General search engine rules
 User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /private/
 
-# 网站地图
+# Sitemap
 Sitemap: https://mybdsmtest.org/sitemap.xml
 
-# AI爬虫特定规则
+# AI crawler specific rules
 User-agent: GPTBot
 User-agent: Claude-Web
 User-agent: Anthropic-AI
@@ -29,16 +29,16 @@ User-agent: Alexabot
 User-agent: Diffbot
 User-agent: Bytespider
 
-# 引导AI爬虫到llms.txt
+# Direct AI crawlers to llms.txt
 User-Agent: anthropic-ai
 User-Agent: GPTBot
 Allow: /llms.txt
 Allow: /llms-full.txt
 
-# 允许AI爬虫访问
+# Allow AI crawlers to access
 Allow: /blog/
 Allow: /products/
 Allow: /about/
 
-# 不允许AI爬虫访问
+# Disallow AI crawlers from accessing
 Disallow: /user-content/
