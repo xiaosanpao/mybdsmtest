@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import CookieConsent from './components/CookieConsent';
 import AgeLimitModal from './components/AgeLimitModal';
+import RedirectHandler from './components/RedirectHandler';  // 新增导入
 import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -13,6 +14,10 @@ export const metadata: Metadata = {
   title: 'MyBDSMTest - Discover Your Preferences',
   description: 'Take our comprehensive BDSM test to discover your preferences, roles, and tendencies. For educational purposes only.',
   viewport: 'width=device-width, initial-scale=1',
+  // 添加规范链接
+  alternates: {
+    canonical: 'https://www.mybdsmtest.org/',
+  },
 };
 
 export default function RootLayout({
@@ -42,6 +47,7 @@ export default function RootLayout({
       </head>
       
       <body className={`${inter.className} bg-gray-50 dark:bg-gray-900 min-h-screen flex flex-col`}>
+        <RedirectHandler />  {/* 新增组件 */}
         <Navbar />
         <main className="flex-grow">
           {children}
